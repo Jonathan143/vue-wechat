@@ -19,6 +19,9 @@ import Shopping from '../pages/find/shopping'
 import Photo from '../pages/my/photo'
 import Wallet from '../pages/my/wallet'
 import MyInfo from '../pages/my/myInfo'
+import Favorites from '../pages/my/favorites'
+
+
 import Nav from '../components/nav'
 Vue.component('top-nav',Nav);
 import Chat from '../pages/sms/chat'
@@ -113,6 +116,11 @@ export default new Router({
       path: '/person/photo',
       name: 'photo',
       component: Photo,
+    },
+    {
+      path: '/person/favorites',
+      name: 'favorites',
+      component: Favorites,
     },
     {
       path: '/person/wallet',

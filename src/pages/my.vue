@@ -30,7 +30,7 @@
           <mu-list-item-title>钱包</mu-list-item-title>
         </mu-list-item>
         <div class="divider"></div>
-        <mu-list-item button>
+        <mu-list-item button :to="{name:'favorites'}">
           <mu-list-item-action>
             <svg class="icon" aria-hidden="true" font-size="25">
               <use xlink:href="#icon-weixinshoucang"></use>

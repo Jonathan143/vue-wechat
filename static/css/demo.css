@@ -21,7 +21,7 @@ th, td /* table elements 表格元素 */ {
 ul, ol { list-style: none; }
 
 
-i,s{
+i,s,em{
   font-style: normal;
 }
 
