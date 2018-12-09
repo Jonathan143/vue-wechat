@@ -10,7 +10,7 @@
     </div>
     <div class="cont">
       <div class="topImg">
-        <img src="https://api.berryapi.net/bing/random/" alt="" width="100%">
+        <img src="https://api.i-meto.com/bing?new" alt="" width="100%">
         <div class="profile">
           <span>Jonathan</span>
           <img src="https://yang143.cn/images/Selfie.jpg" alt="" width="100">
