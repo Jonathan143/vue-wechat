@@ -5,7 +5,7 @@
 ## 主要特性
 - 界面布局大致模仿微信
 - 聊天页面,自动回复调用[一言API](https://hitokoto.cn/)
-- 聊天页面聊天记录采用 localstorage 存储，页面关闭后会自动清空 localstorage 存储；
+- 聊天页面聊天记录采用 localstorage 存储;
 - 我的栏目里的相册里的图片均来自[干货集中营](https://gank.io/),调用干货集中营API；
 - 使用vue-lazyload插件，实现图片懒加载；
 
