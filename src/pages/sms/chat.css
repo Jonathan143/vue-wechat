@@ -1,59 +1,65 @@
-.chat-sender{
-  clear:both;
+.chat-sender {
+  clear: both;
   /*font-size: 90%;*/
   padding-top: 10px;
   color: #fff;
 }
-.chat-sender div:nth-of-type(1){
+
+.chat-sender div:nth-of-type(1) {
   float: left;
 }
-.chat-sender div:nth-of-type(2){
+
+.chat-sender div:nth-of-type(2) {
   margin: 0 50px 2px 50px;
   padding: 0;
   color: #848484;
   font-size: 80%;
   text-align: left;
 }
-.chat-sender div:nth-of-type(3){
+
+.chat-sender div:nth-of-type(3) {
   background-color: #3f51b5;
   /*float: left;*/
   margin: 0 50px 10px 50px;
   padding: 10px 10px 10px 10px;
-  border-radius:7px;
+  border-radius: 7px;
   text-indent: -12px;
 }
 
-.chat-receiver{
-  clear:both;
+.chat-receiver {
+  clear: both;
   /*font-size: 80%;*/
   color: #fff;
 }
-.chat-receiver div:nth-of-type(1){
+
+.chat-receiver div:nth-of-type(1) {
   float: right;
 }
-.chat-receiver div:nth-of-type(2){
+
+.chat-receiver div:nth-of-type(2) {
   margin: 0 50px 2px 50px;
   padding: 0;
   color: #848484;
   font-size: 80%;
   text-align: right;
 }
-.chat-receiver div:nth-of-type(3){
+
+.chat-receiver div:nth-of-type(3) {
   /*float:right;*/
   background-color: #4caf50;
   margin: 0 50px 10px 50px;
   padding: 10px 10px 10px 10px;
-  border-radius:7px;
+  border-radius: 7px;
 }
 
 .chat-receiver div:first-child img,
-.chat-sender div:first-child img{
+.chat-sender div:first-child img {
   width: 40px;
   height: 40px;
   /*border-radius: 10%;*/
 }
 
-.chat-left_triangle{
+.chat-left_triangle {
   height: 0;
   width: 0;
   border-width: 6px;
@@ -63,18 +69,19 @@
   left: -22px;
   top: 3px;
 }
-.chat-right_triangle{
+
+.chat-right_triangle {
   height: 0;
   width: 0;
   border-width: 6px;
   border-style: solid;
   border-color: transparent transparent transparent #4caf50;
   position: relative;
-  right:-22px;
-  top:3px;
+  right: -22px;
+  top: 3px;
 }
 
-.chat-notice{
+.chat-notice {
   clear: both;
   font-size: 80%;
   color: white;
@@ -82,9 +89,20 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.chat-notice span{
+
+.chat-notice span {
   background-color: #cecece;
   line-height: 25px;
   border-radius: 5px;
   padding: 5px 10px;
+}
+
+.chat-receiver a {
+  color: #ff7043;
+  word-wrap: break-word;
+}
+
+.chat-sender a {
+  color: #f06292;
+  word-wrap: break-word;
 }

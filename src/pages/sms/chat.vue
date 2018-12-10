@@ -1,73 +1,70 @@
 <template>
-    <div>
-      <div class="chat-sender">
-        <div><img src="https://blog.yang143.cn/api/image/pop/a1.jpeg"></div>
-        <div>阿奔 Ben</div>
-        <div>
-          <div class="chat-left_triangle"></div>
-          <span> 苹果增加三款配件的颜色选项</span>
-        </div>
-      </div>
-      <!-- Right -->
-      <div class="chat-receiver">
-        <div><img src="https://blog.yang143.cn/api/image/pop/a3.jpeg"></div>
-        <div>好人·马克思</div>
-        <div>
-          <div class="chat-right_triangle"></div>
-          <span> 但是如果你正在再发新的APP跨平台项目，我建议你考虑一下Ionic2/Ionic3。 ionic2/Ionic3的架构使得“单一职责原则”得到了体现，组件、页面之间相互独立，有利于内聚和解耦。</span>
-        </div>
-      </div>
-      <!-- Right -->
-      <div class="chat-sender">
-        <div><img src="https://blog.yang143.cn/api/image/pop/a5.jpeg"></div>
-        <div>阿达姆 Adam</div>
-        <div>
-          <div class="chat-left_triangle"></div>
-          <span> 一款接近原生的Html5移动App开发框架</span>
-        </div>
-      </div>
-      <!-- Notice/Center -->
-      <div class="chat-notice">
-        <span>2018年11月16日 23:13</span>
-      </div>
-      <!-- Left -->
-      <div class="chat-sender">
-        <div><img src="https://blog.yang143.cn/api/image/pop/a2.jpeg"/></div>
-        <div>佩里 Perry</div>
-        <div>
-          <div class="chat-left_triangle"></div>
-          <span> Ionic遵循视图控制模式，通俗的理解和 Cocoa 触摸框架相似。在视图控制模式中，我们将界面的不同部分分为子视图或包含其他视图的子视图控制器。</span>
-        </div>
-      </div>
-      <!-- Left -->
-      <div class="chat-sender">
-        <div><img src="https://blog.yang143.cn/api/image/pop/a4.jpeg"></div>
-        <div>麦克</div>
-        <div>
-          <div class="chat-left_triangle"></div>
-          <span> 你可以用ionRefresher指令实现拉动刷新，并可以用ionInfiniteScroll指令实现无限滚动。</span>
-        </div>
-      </div>
-      <!-- Right -->
-      <div class="chat-receiver">
-        <div><img src="https://blog.yang143.cn/api/image/pop/a3.jpeg"></div>
-        <div>好人·马克思</div>
-        <div>
-          <div class="chat-right_triangle"></div>
-          <span> 最后但并非最不重要的是</span>
-        </div>
-      </div>
-      <!-- Notice/Center -->
-      <div class="chat-notice">
-        <span>你被群主移除群聊</span>
+  <div>
+    <!-- Notice/Center -->
+    <div class="chat-notice">
+      <span>2018年11月16日 23:13</span>
+    </div>
+    <div class="chat-sender">
+      <div><img src="https://blog.yang143.cn/api/image/pop/a1.jpeg"></div>
+      <div>阿奔 Ben</div>
+      <div>
+        <div class="chat-left_triangle"></div>
+        <span> 本项目GitHub地址：<a
+          href="https://github.com/Jonathan143/vue-wechat">https://github.com/Jonathan143/vue-wechat</a></span>
       </div>
     </div>
+    <!-- Right -->
+    <div class="chat-receiver">
+      <div><img src="https://blog.yang143.cn/api/image/pop/a3.jpeg"></div>
+      <div>Jonathan</div>
+      <div>
+        <div class="chat-right_triangle"></div>
+        <span> 欢迎关注我的博客：<a href="https://www.yang143.cn">https://www.yang143.cn</a></span>
+      </div>
+    </div>
+    <!-- left -->
+    <div class="chat-sender">
+      <div><img src="https://blog.yang143.cn/api/image/pop/a5.jpeg"></div>
+      <div>阿达姆 Adam</div>
+      <div>
+        <div class="chat-left_triangle"></div>
+        <span> 本项目简介请访问：<a href="https://yang143.cn/index.php/archives/2018/11/15/cid=30.html"> https://yang143.cn/index.php/archives/2018/11/15/cid=30.html</a></span>
+      </div>
+    </div>
+
+    <div class="chat-notice">
+      <span>2018年12月9日 23:16</span>
+    </div>
+    <!-- Right -->
+    <div class="chat-receiver">
+      <div><img src="https://blog.yang143.cn/api/image/pop/a3.jpeg"></div>
+      <div>Jonathan</div>
+      <div>
+        <div class="chat-right_triangle"></div>
+        <span> 2018/12/09 更新，支持聊天自动回复</span>
+      </div>
+    </div>
+
+    <!-- left -->
+    <div class="chat-sender">
+      <div><img src="https://blog.yang143.cn/api/image/pop/a4.jpeg"></div>
+      <div>Jack</div>
+      <div>
+        <div class="chat-left_triangle"></div>
+        <span> 聊天自动回复调用一言API</span>
+      </div>
+    </div>
+    <!-- Notice/Center -->
+    <!-- <div class="chat-notice">
+      <span>你被群主移除群聊</span>
+    </div> -->
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "chat"
-    }
+  export default {
+    name: "chat"
+  }
 </script>
 
 <style scoped>
