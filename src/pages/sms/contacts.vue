@@ -81,18 +81,19 @@
       sendMsg() {
         if (this.msg) {
           this.axios.get("https://v1.hitokoto.cn/").then(res => {
-            let realy = `${res.data.hitokoto} --${res.data.creator} 《${
-              res.data.from
-              }》`;
-
+            let realy = `${res.data.hitokoto} --${res.data.creator} 《${res.data.from}》`;
             let nowTime = new Date();
-            console.log(this.msgTime);
             if (this.msgTime - nowTime.getTime() < -60000) {
               this.msgTime = nowTime.getTime();
-              console.log(this.msgTime);
-
-              let nowT = `${nowTime.getFullYear()}年${nowTime.getMonth() +
-              1}月${nowTime.getDate()}日 ${nowTime.getHours()}:${nowTime.getMinutes()}`;
+              let nowMonth = nowTime.getMonth();
+              let nowDay = nowTime.getDate();
+              let nowHours = nowTime.getHours();
+              let nowMinutes = nowTime.getMinutes();
+              nowMonth = nowMonth<10?"0"+(nowMonth+1):nowMonth+1;
+              nowDay = nowDay<10?"0"+nowDay:nowDay;
+              nowHours = nowHours<10?"0"+nowHours:nowHours;
+              nowMinutes = nowMinutes<10?"0"+nowMinutes:nowMinutes;
+              let nowT = `${nowTime.getFullYear()}年${nowMonth}月${nowDay}日 ${nowHours}:${nowMinutes}`;
               this.msgArr.push({myMsg: this.msg, robot: realy, msgTime: nowT});
             } else {
               this.msgArr.push({myMsg: this.msg, robot: realy});
